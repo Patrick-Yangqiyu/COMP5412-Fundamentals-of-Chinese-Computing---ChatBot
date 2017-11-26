@@ -1,4 +1,3 @@
-from sklearn import preprocessing
 from whoosh import qparser, scoring
 from whoosh.index import open_dir
 from emotion.senti_python import calculate_emotion
