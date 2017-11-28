@@ -1,10 +1,11 @@
+# Search functions
+
 from whoosh import qparser, scoring
 from whoosh.index import open_dir
 from emotion.senti_python import calculate_emotion
 from whoosh.qparser import QueryParser, OrGroup
 import jieba
 
-# indexdir = "indexdirtest"
 
 
 def Load(indexdir):
@@ -118,5 +119,4 @@ def emotion_maching(int1, int2):
         else:
             return 0
 
-# ix = Load(indexdir)
-# Search("你是我的朋友", ix)
+

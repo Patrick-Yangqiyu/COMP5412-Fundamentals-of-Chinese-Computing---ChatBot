@@ -5,7 +5,7 @@ from nltk.translate import bleu_score
 '''
 Install nltk through: conda install nltk
 '''
-filename = 'test.json'
+filename = 'Data/test.json'
 with open(filename, encoding='utf-8') as f:
     dataset = json.load(f)
 print(len(dataset))

@@ -1,10 +1,12 @@
+# Index the data
+
 import json
 import os.path
 from whoosh import fields
 from whoosh import index
 from whoosh.fields import *
 
-filename = 'train.json'
+filename = 'Data/train.json'
 with open(filename, encoding='utf-8') as f:
     dataset = json.load(f)
 
